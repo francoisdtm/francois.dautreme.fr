@@ -1,0 +1,45 @@
+baseURL: https://francois.dautreme.fr/
+languageCode: en-us
+title: François Dautrême
+theme: PaperMod
+
+params:
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: Hi there 👋🏻
+    Content: |
+      - I am a French student at [Epita](https://www.epita.fr/) majoring in cyber security.
+      - Go check out my [Github](https://github.com/francoisdtm) profile, and star 🌟 the repositories you like! It means **a lot to me ❤️**.
+      - Feel free to dm me on [Discord](https://discordapp.com/users/111889213112197120/) or send a message on [LinkedIn](https://www.linkedin.com/in/francois-dtm/).
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/francoisdtm"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/francois-dtm/"
+    - name: discord
+      url: "https://discordapp.com/users/111889213112197120/"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/francoisdtm"
+
+menu:
+  main:
+    # - identifier: archive
+    #   name: Archive
+    #   url: /archive/
+    #   weight: 10
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
