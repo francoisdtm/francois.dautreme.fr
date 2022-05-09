@@ -23,6 +23,13 @@ params:
     - name: buymeacoffee
       url: "https://www.buymeacoffee.com/francoisdtm"
 
+  assets:
+    favicon: "/favicon32.png"
+    favicon16x16: "/favicon16.png"
+    favicon32x32: "/favicon32.png"
+    apple_touch_icon: "/favicon32.png"
+    safari_pinned_tab: "/favicon32.png"
+
 menu:
   main:
     # - identifier: archive
