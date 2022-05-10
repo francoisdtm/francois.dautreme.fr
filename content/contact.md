@@ -1,5 +1,8 @@
 ---
 title: Contact me 💌
+showtoc: false
+hidemeta: true
+ShowBreadCrumbs: false
 ---
 
 Share your thoughts and concerns at

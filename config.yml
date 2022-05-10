@@ -3,8 +3,13 @@ languageCode: en-us
 title: François Dautrême
 theme: PaperMod
 
+enableEmoji: true
+
 params:
+  author: Me
   ShowCodeCopyButtons: true
+  ShowBreadcrumbs: true
+  showtoc: true
 
   homeInfoParams:
     Title: Hi there 👋🏻
@@ -32,14 +37,14 @@ params:
 
 menu:
   main:
-    # - identifier: archive
-    #   name: Archive
-    #   url: /archive/
-    #   weight: 10
-    # - identifier: search
-    #   name: Search
-    #   url: /search/
-    #   weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
     - identifier: contact
       name: Contact
       url: /contact/
