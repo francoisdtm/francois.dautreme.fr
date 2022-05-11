@@ -14,8 +14,9 @@ Share your thoughts and concerns at
 
 Here is my GPG key to make sure your messages stay between us.
 
-> If you do not know how to use it, check on the internet or come back later. I
-> will write an article on how to send encrypted messages with GPG.
+> If you do not know how to use it, I wrote [a tutorial]({{< ref
+"/tutorials/send-encryted-messages" >}}) on how to encrypt and decrypt messages
+using GPG.
 
 {{< collapse summary="My key" >}}
 
