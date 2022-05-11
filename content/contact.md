@@ -6,7 +6,7 @@ ShowBreadCrumbs: false
 ---
 
 Share your thoughts and concerns at
-[contact@dautreme.fr](mailto:contact@dautreme.fr).
+[francois@dautreme.fr](mailto:francois@dautreme.fr).
 
 ---
 
