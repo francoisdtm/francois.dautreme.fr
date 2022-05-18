@@ -6,7 +6,8 @@ theme: PaperMod
 enableEmoji: true
 
 params:
-  author: Me
+  env: production
+  author: François Dautrême
   ShowCodeCopyButtons: true
   ShowBreadcrumbs: true
   showtoc: true
