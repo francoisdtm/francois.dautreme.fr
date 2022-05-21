@@ -10,7 +10,13 @@ params:
   author: François Dautrême
   ShowCodeCopyButtons: true
   ShowBreadcrumbs: true
-  showtoc: true
+  ShowRssButtonInSectionTermList: true
+  ShowReadingTime: true
+  ShowToc: true
+
+  mainSections:
+    - blog
+    - tutorials
 
   homeInfoParams:
     Title: Hi there 👋🏻
@@ -42,14 +48,22 @@ menu:
       name: Archive
       url: /archive/
       weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 20
+    - identifier: tutorials
+      name: Tutorials
+      url: /tutorials/
+      weight: 30
     - identifier: search
       name: Search
       url: /search/
-      weight: 20
+      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 30
+      weight: 50
 
 outputs:
   home:
