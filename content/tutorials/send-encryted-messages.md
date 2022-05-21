@@ -1,5 +1,5 @@
 ---
-title: Send encrypted messages
+title: Send encrypted messages 🔐
 summary: Learn how to use GPG to keep your messages private
 date: 2022-05-09T17:03:27.475Z
 ---
