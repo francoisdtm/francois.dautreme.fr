@@ -4,6 +4,7 @@ title: François Dautrême
 theme: PaperMod
 
 enableEmoji: true
+enableRobotsTXT: true
 
 params:
   env: production
