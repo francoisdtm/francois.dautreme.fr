@@ -18,7 +18,7 @@ I discovered [Gitmoji](https://gitmoji.dev/) a few years ago and decided to give
 it a try for my school projects. It provides a list of currently 70 emojis to
 use in git commit messages to easily identify the reason of the commit.
 
-![](/images/2022-05-21-10-00-52.png)
+![](images/gitmoji.png)
 
 > For example, a commit that begins with `:bug:` fixes a bug and a commit that
 starts with `:arrow_up:` upgrades one or more dependencies. By simply looking at
@@ -35,7 +35,7 @@ started. If you would like to a fun way of learning some more gitmojis, check
 out this [online game](https://gitmemoji.lalilo.com/). The goal is to
 select the gitmoji corresponding to the statement above.
 
-![](/images/2022-05-21-11-44-47.png)
+![](images/gitmoji_game.png)
 
 > Can you guess the correct answer here ? :thinking:
 
@@ -46,7 +46,7 @@ VsCode, I recommend this
 It adds a menu for you to pick the right gitmoji from a list. You can find more
 extensions on the official website.
 
-![](/images/2022-05-21-15-00-04.png)
+![](images/vscode_extension.png)
 
 You should really give Gitmojis a try. It can only improve your productivity.
 
