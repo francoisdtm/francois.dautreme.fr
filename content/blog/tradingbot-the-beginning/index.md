@@ -15,19 +15,19 @@ and will then go through the process of implementing it.
 ### Motivations
 
 For the past three years, I have been interested in trading cryptocurrencies in
-my spare time. Sometimes making profits and sometimes being liquidated.
+my spare time: sometimes making profits and sometimes being liquidated 😓
 
 I also like to automate things with code. For example, I automated the
 deployment of the services hosted on my Raspberry Pi and the setup of my MacBook
 itself. I prefer to automate processes instead of doing it manually multiple
 times.
 
-I have been developing programs in many languages and I recently started to
-learn [Go](https://go.dev/). What a better way to learn a new programming
-language than practicing it.
+Moreover, I have been developing programs in many languages and I recently
+started to learn [Go](https://go.dev/). Indeed, what a better way to learn a new
+programming language than practicing it.
 
 Therefore, it makes sense for me to build a trading bot because it is the
-combination of trading, coding and automating.
+combination of trading, coding and automating!
 
 ### What I expect from this project
 
@@ -39,7 +39,7 @@ the financial mathematics behind it. For example, microservices, technical
 analysis and trading strategies.
 
 Moreover, I am majoring in cybersecurity. I will therefore be taking security
-into account during the whole process. It is an important part of every program,
+into account during the whole process: it is an important part of every program,
 as some parts of the bot will be exposed to the internet.
 
 ### How I will proceed
@@ -66,5 +66,5 @@ tutorial.
 ### Conclusion
 
 I have been preparing this series of articles for a while now, I really hope you
-will enjoy reading it and that I will teach you something new. Share your
-thoughts and ideas with me using my [contact](/contact/) page.
+will enjoy reading it and that I will teach you something new ✨ Feel free to
+share your thoughts and ideas with me using my [contact](/contact/) page!
