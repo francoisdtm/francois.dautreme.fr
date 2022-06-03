@@ -52,17 +52,20 @@ order at a lower price.
 
 ### Leverage
 
-A leverage is a ratio between the amount of money of a position and the amount
-of money you use to trade. It means, that if you have a position of 25 BTC and
-you use 1 BTC to trade, you will have a leverage of 25x.
+A leverage is a ratio between the value of a position and the amount of money
+you actually use to place it. For example, a leverage of 25x means that you only
+trade 1 BTC for a position of 25 BTC.
 
-It allows you to trade more money than you have in your account to increase your
-profits. However, it also means that you will lose more money if the market goes
-down.
+Leverage allows you to trade more money than what you have in your account to
+increase your profits. However, it also means that you will lose more money if
+the market goes down.
+
+> :light_bulb: You need to make sure your exchange supports trading with
+> leverage.
 
 Liquidation can occur when the market falls and the amount of money you place
 for your position does not cover the loss. You will lose your position, leading
-to a full loss of your equity.
+to a full loss of your money.
 
 ### What is a trading bot exactly?
 
@@ -74,6 +77,9 @@ It implements a trading strategy which specifies how to trade. For example, a
 strategy can be to *long* if yesterday's closing price is lower than its opening
 price and to *short* if yesterday's closing price is higher than its opening
 price.
+
+> This strategy is probably not a good one, as it implies that if the market
+> went up one day it will go down the next day and vice-versa.
 
 The major goal of the implementation of a trading bot is to find and develop a
 trading strategy. There exist many strategies like grid trading, pair trading
