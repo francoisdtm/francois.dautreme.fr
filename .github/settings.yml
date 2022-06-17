@@ -22,6 +22,10 @@ labels:
     color: "#E8CD3A"
     description: Article request
 
+  - name: turorial
+    color: "#0E8A16"
+    description: Turorial request
+
   - name: typos
     color: "#D93F0B"
     description: Fix typos
