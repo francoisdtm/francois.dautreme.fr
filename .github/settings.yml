@@ -5,7 +5,7 @@ repository:
   topics: website, francois, dautreme.fr
   private: true
 
-  has_issues: false
+  has_issues: true
   has_projects: false
   has_wiki: false
   has_downloads: true
