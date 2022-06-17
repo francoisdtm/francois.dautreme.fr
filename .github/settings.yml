@@ -17,5 +17,18 @@ repository:
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
 
+labels:
+  - name: article
+    color: "#E8CD3A"
+    description: Article request
+
+  - name: typos
+    color: "#D93F0B"
+    description: Fix typos
+
+  - name: bug
+    color: "#B60205"
+    description: Something is not working
+
 branches:
   - name: main
