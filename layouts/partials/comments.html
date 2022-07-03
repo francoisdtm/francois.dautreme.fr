@@ -1,0 +1,40 @@
+<script src="https://giscus.app/client.js" data-repo="francoisdtm/francois.dautreme.fr" data-repo-id="R_kgDOHTkfSQ"
+    data-category="Comments" data-category-id="DIC_kwDOHTkfSc4CQBcq" data-mapping="title" data-reactions-enabled="1"
+    data-emit-metadata="0" data-input-position="top" data-theme="transparent_dark" data-lang="en" data-loading="lazy"
+    crossorigin="anonymous" async>
+    </script>
+
+<script>
+
+    function sendMessage(message) {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    }
+
+    function handleGiscusMessage(event) {
+        if (event.origin !== 'https://giscus.app') return;
+        if (!(typeof event.data === 'object' && event.data.giscus)) return;
+
+        if (localStorage.getItem("pref-theme") === "light") {
+            sendMessage({ setConfig: { theme: 'light' } });
+        } else if (localStorage.getItem("pref-theme") === "dark") {
+            sendMessage({ setConfig: { theme: 'transparent_dark' } });
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            sendMessage({ setConfig: { theme: 'transparent_dark' } });
+        }
+
+        window.removeEventListener('message', handleGiscusMessage);
+    }
+
+    window.addEventListener('message', handleGiscusMessage);
+
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            sendMessage({ setConfig: { theme: 'light' } });
+        } else {
+            sendMessage({ setConfig: { theme: 'transparent_dark' } });
+        }
+    });
+
+</script>
