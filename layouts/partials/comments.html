@@ -1,6 +1,6 @@
 <script src="https://giscus.app/client.js" data-repo="francoisdtm/francois.dautreme.fr" data-repo-id="R_kgDOHTkfSQ"
     data-category="Comments" data-category-id="DIC_kwDOHTkfSc4CQBcq" data-mapping="title" data-reactions-enabled="1"
-    data-emit-metadata="0" data-input-position="top" data-theme="transparent_dark" data-lang="en" data-loading="lazy"
+    data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" data-loading="lazy"
     crossorigin="anonymous" async>
     </script>
 
@@ -15,6 +15,8 @@
     function handleGiscusMessage(event) {
         if (event.origin !== 'https://giscus.app') return;
         if (!(typeof event.data === 'object' && event.data.giscus)) return;
+
+
 
         if (localStorage.getItem("pref-theme") === "light") {
             sendMessage({ setConfig: { theme: 'light' } });
