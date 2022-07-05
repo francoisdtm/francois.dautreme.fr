@@ -1,7 +1,7 @@
 <script src="https://giscus.app/client.js" data-repo="francoisdtm/francois.dautreme.fr" data-repo-id="R_kgDOHTkfSQ"
     data-category="Comments" data-category-id="DIC_kwDOHTkfSc4CQBcq" data-mapping="pathname" data-reactions-enabled="1"
-    data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" data-loading="lazy"
-    crossorigin="anonymous" async>
+    data-emit-metadata="0" data-input-position="top" data-theme="{{ site.BaseURL }}/comments.css" data-lang="en"
+    data-loading="lazy" crossorigin="anonymous" async>
     </script>
 
 <script>
@@ -19,7 +19,7 @@
 
 
         if (localStorage.getItem("pref-theme") === "light") {
-            sendMessage({ setConfig: { theme: 'light' } });
+            sendMessage({ setConfig: { theme: '{{ site.BaseURL }}/comments.css' } });
         } else if (localStorage.getItem("pref-theme") === "dark") {
             sendMessage({ setConfig: { theme: 'transparent_dark' } });
         } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -33,7 +33,7 @@
 
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
-            sendMessage({ setConfig: { theme: 'light' } });
+            sendMessage({ setConfig: { theme: '{{ site.BaseURL }}/comments.css' } });
         } else {
             sendMessage({ setConfig: { theme: 'transparent_dark' } });
         }
