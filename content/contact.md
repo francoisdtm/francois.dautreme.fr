@@ -3,6 +3,7 @@ title: Contact me 💌
 showtoc: false
 hidemeta: true
 ShowBreadCrumbs: false
+comments: false
 ---
 
 Share your thoughts and concerns at
