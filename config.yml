@@ -48,6 +48,11 @@ params:
   images:
     - /cover.png
 
+  editPost:
+    URL: "https://github.com/francoisdtm/francois.dautreme.fr/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
 menu:
   main:
     - identifier: archive
