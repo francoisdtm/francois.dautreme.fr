@@ -44,6 +44,15 @@ params:
     apple_touch_icon: "/favicon32.png"
     safari_pinned_tab: "/favicon32.png"
 
+  description: "IT Blog and tutorials about cybersecurity, blockchain, and more."
+  images:
+    - /cover.png
+
+  editPost:
+    URL: "https://github.com/francoisdtm/francois.dautreme.fr/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
 menu:
   main:
     - identifier: archive
